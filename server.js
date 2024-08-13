@@ -11,7 +11,7 @@ const productRoute = require('./src/route/product.route');
 app.use('/product',productRoute);
 
 app.get('/',(req,res)=>{
-    res.send("Hello nodeJs");
+    res.send("Hello nodeJs!!");
 });
 
 const PORT = process.env.PORT || 3000
